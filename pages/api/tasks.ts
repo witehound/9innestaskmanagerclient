@@ -2,7 +2,6 @@ import { ApolloServer, ApolloServer } from "apollo-server-micro"
 import { typeDefs } from "../../graphql/schema"
 import resolvers from "../../graphql/resolvers"
 import Cors from "micro-cors"
-import { RESPONSE_LIMIT_DEFAULT } from "next/dist/server/api-utils"
 
 
 const cors = Cors()
